@@ -1,0 +1,22 @@
+body {
+    background-image: url('/static/assets/paper.jpg');
+    font-family: 'Pangolin';
+}
+
+#title {
+    font-size: 4em;
+}
+
+#title_container {
+    background: rgba(190, 122, 122, 0.3);
+    padding: 1em;
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+#alphabets {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
